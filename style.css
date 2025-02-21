@@ -50,6 +50,7 @@ nav > ul > li{
     background-image: url(images/developer.png), url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    margin-bottom: 130px;
 }
 /* banner style */
 .banner{
@@ -71,3 +72,39 @@ nav > ul > li{
 .banner-image{
     width: 584px;
 }
+.shared-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.shared-description{
+    font-size: 18px;
+    color: #757575;
+}
+.secondary-background{
+    background-color:#FFF8F3; 
+}
+.main-styles{
+    max-width: 580px;
+
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about styles */
+.about{
+    border-radius: 5px;
+    padding: 130px 150px;
+text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.item-description{
+    font-size: 20px;
+    font-weight: 700;
+}
+

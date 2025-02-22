@@ -147,3 +147,20 @@ margin-bottom: 130px;
         display: block;
     margin: 20px auto;
     }
+    footer>div{
+        display: flex;
+        gap: 100px;
+        
+    }
+    .footer-logo{
+        width: 50%;
+        gap: 20px;
+    }
+    footer{
+        background-color: #FFF8F3;
+        gap: 100px;
+        display: flex;
+    }
+    .footer-form{
+        display: grid;
+    }

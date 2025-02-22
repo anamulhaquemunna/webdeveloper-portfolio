@@ -160,7 +160,13 @@ margin-bottom: 130px;
         background-color: #FFF8F3;
         gap: 100px;
         display: flex;
+        padding: 100px;
     }
     .footer-form{
         display: grid;
     }
+    textarea {
+        resize: none; /* Disables resizing */
+        
+        height: 100px; /* Set a fixed height */
+      }

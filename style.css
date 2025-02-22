@@ -72,12 +72,12 @@ nav > ul > li{
 .banner-image{
     width: 584px;
 }
-.shared-title{
+.shared-title, .skills-title{
     font-size: 35px;
     font-weight: bold;
     color: #181818;
 }
-.shared-description{
+.shared-description, .skills-description{
     font-size: 18px;
     color: #757575;
 }
@@ -93,10 +93,11 @@ main{
     margin: 0 auto;
 }
 /* about styles */
-.about{
+.about {
     border-radius: 5px;
     padding: 130px 150px;
 text-align: center;
+margin-bottom: 130px;
 }
 .about-items{
     display: flex;
@@ -107,4 +108,42 @@ text-align: center;
     font-size: 20px;
     font-weight: 700;
 }
-
+.skills{
+    
+    justify-content: space-around;
+    text-align: center;
+}
+.skills-items{
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+  
+}
+.skills-item{
+    padding: 20px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px; /* Optional: Adds rounded corners */
+    margin: 10px; 
+}
+.skills-titled {
+    font-size: 30px;
+}
+.whatIDo{
+    margin-top: 130px;
+}
+.middle{
+    padding: 0 100px;
+}
+.education-experience{
+    display: flex;
+    padding: 20;
+    gap: 20px;
+    }
+    .resume{
+        text-align: center;
+    }
+    .resumes{
+        display: block;
+    margin: 20px auto;
+    }
